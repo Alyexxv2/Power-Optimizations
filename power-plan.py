@@ -5,7 +5,7 @@ import os
 from gi.repository import Gio, GLib
 
 dimmed = False # to allow manual brightness override and recovery of saved brightness
-max_brightness = int(subprocess.run(["brightnessctl", "max"], check=True)) # gets max brightness of screen
+max_brightness = int(subprocess.check_output(["brightnessctl", "max"], text=True)) # gets max brightness of screen
 desired_dim = 0.25 # set to desired dim level as a decimal. (1% = 0.01)
 battery_thresthold = 30 #set to what you define low battery is. should be a percent as a whole number (1% = 1)
 saved_brightness_path = os.path.expanduser("~/.local/cache/saved-brightness.txt") # saved brightness file path. if ~/.local/cache doesn't exist, the saved brightness will not function.
