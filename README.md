@@ -31,4 +31,4 @@ It is really simple!
 add what percentage you want it to dim to after the battery gets low. the battery threshold can also be edited. max brightness is automatically retrieved
 
 # Last Comments
-Please credit me if you use my code for something. Personal use does not require it. Do not used in closed source projects as per the GNU v2.0 license. Any ideas on how to improve or any bug reports would be appreciated! you can also fix them for yourself if you like.
+Please credit me if you use my code for something. Personal use does not require it. Do not used in closed source projects as per the GPL v2.0 license. Any ideas on how to improve or any bug reports would be appreciated! you can also fix them for yourself if you like.
